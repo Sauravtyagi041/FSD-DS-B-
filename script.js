@@ -422,3 +422,44 @@ function abcd(){
  //ARRAYS
 // in js arrays can store different data types
 
+
+//class js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const car=[arr1,arr2,arr3,arr4];
+        let len=car.length;
+        let text="";
+
+        for(let i=0;i<len;i++){
+            text+=car[i]+"<br>";
+        }
+        document.getElementById("demo").innerHTML=text;
+        // let a = prompt("Enter a number: ");
+        // while(a>0)
+        // {
+        //     let r = a % 10;
+        //     let s = 0;
+        //     s = s + r * r * r;
+        //     let n = (a / 10);
+        //     if(s==a)
+        //     {
+        //         console.log("Armstrong Number");
+        //     }
+        //     else
+        //     {
+        //         console.log("Not Armstrong Number");
+        //     }
+
+        // }
+    </script>
+</body>
+</html>
